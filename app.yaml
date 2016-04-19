@@ -1,0 +1,13 @@
+application: untitled8-1255
+version: 2
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: main.application
+
+libraries:
+- name: django
+  version: "latest"
